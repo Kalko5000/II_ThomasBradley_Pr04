@@ -51,7 +51,7 @@ una esfera (este mensaje siendo fivePoints o tenPoints dependiendo de la esfera 
 y suma 5 o 10 puntos a una variable points que tiene (imprimiendo el nuevo resultado por consola tras esto). También incremente la masa del cubo a 5 para que esta se sienta mejor a la hora de controlar.
 
 ## Tarea 05
-![tarea_05](./gifs/II_Pr04_gif05.gif)  
+![tarea_05](./img/II_Pr04_img01.png)  
 Primero creamos un canvas, al cual le agregamos texto (como no me gusto el font por defecto busque una nueva en la unity asset store). Incorporé texto descriptivo sobre la puntuación en la esquina izquierda inferior y 
 un texto para la puntuación obtenida en la derecha superior. Ademas puse un texto grande en amarillo (en blanco de momento) en el centro de la pantalla para insertarle texto en el caso de que se consiga los 100 puntos totales. 
 Ahora dentro del pointManager añadimos 'using UnityEngine.UI;' y declaramos una nueva variable Text llamado pointText. Dentro de update actualizamos este texto para que muestre la puntuación obtenida hasta el momento. Repetimos estos pasos 
